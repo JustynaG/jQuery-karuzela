@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: block;
+}
+
+#carousel {
+	width: 400px;
+	height: 260px;
+	overflow: hidden;
+	border: 2px solid #ccc;
+	position: absolute;
+	top: 35vh;
+	left: 35vw;
+} 
+ul {
+	display: block;
+	width: 2000px;
+	height: 260px;
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+	float: left;
+	width: 400px;
+	height: 260px;
+}
